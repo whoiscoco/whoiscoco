@@ -10,8 +10,8 @@ title: Coco Valentine
 email: coco@whoiscoco.com
 description: >
   Coco Valentine, Melbourne Australia High Class Escort, 2015.
-baseurl: "http://whoiscoco.github.io" # the subpath of your site, e.g. /blog
-url: "http://whoiscoco.github.io" # the base hostname & protocol for your site
+baseurl: "http://whoiscoco.github.io/whoiscoco" # the subpath of your site, e.g. /blog
+url: "http://whoiscoco.github.io/whoiscoco" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown

@@ -1,0 +1,112 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Coco Valentine
+email: coco@whoiscoco.com
+description: > # this means to ignore newlines until "baseurl:"
+  Coco Valentine, Melbourne Australia High Class Escort, 2015.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://whoiscoco.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+favicon: "/img/favicon.png"
+404-img: "/img/favicon.png"
+
+################
+# Header layout #
+################
+
+black-favicon: "/img/coco_taupe.ico/favicon-32x32.png"
+
+background-img: "../img/legs.jpeg"
+
+##############################
+# Dynamic Text on the Header #
+##############################
+
+me-img: "/img/brunette_woman.jpg"
+# me-img: "/img/jetpacktocat.png"
+
+################
+# Web app mode #
+################
+
+web-app-mode: True
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
+
+########
+# Blog #
+########
+
+post-preview-words: 96
+
+
+syntax-highlight: True
+
+############
+# Timeline #
+############
+
+events:
+  - image: "/img/red_hair.jpg"
+    date: "September 2013 - Today"
+    description: "Saving the neighborhood!"
+  - image: "/img/brunette_woman.jpg"
+    date: "September 2007 - August 2013"
+    description: "Started coding"
+
+# First image of the Timeline
+
+timeline-img: "/img/timeline/default.png"
+
+###########
+# Contact #
+###########
+
+email: "info@whoiscoco.com"
+
+
+############
+# 404 page #
+############
+
+404-img: "/img/labtocat.png"
+
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  Services: 'services'
+  Rates: 'rates'
+  FAQ: 'faq'
+  Contact: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
+# Enable minification SASS
+
+sass:
+  style: compressed
+
+

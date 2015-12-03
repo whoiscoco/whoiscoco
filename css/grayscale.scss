@@ -75,6 +75,10 @@ body {
     color: $light;
     font-weight: 300;
     background-color: $dark;
+    @media screen {
+      width: 90%;
+    }
+
 }
 
 html {
